@@ -16,7 +16,7 @@ def _save_results(appliance, lat, feature_comb, test_home, pred_df):
         pred_df.to_csv(os.path.expanduser("~/collab_subset/%s_%d_%s_%d.csv" %(appliance, lat, '_'.join(feature_comb), test_home)))
 
 
-out_overall = pickle.load(open('../../data/input/all_regions.pkl', 'r'))
+out_overall = pickle.load(open('../data/all_regions.pkl', 'r'))
 
 region = "Austin"
 
@@ -49,8 +49,7 @@ if not ALL_HOMES:
     dfc = dfc.ix[df.index]
 
 
-from all_functions import *
-from features_larger import *
+
 
 import itertools
 feature_combinations = [['None']]
@@ -75,7 +74,7 @@ all_cols.extend(aggregate_cols)
 
 
 
-for feature_comb in np.array(feature_combinations)[:1]:
+for feature_comb in np.array(feature_combinations)[:]:
     print feature_comb
     out[tuple(feature_comb)]={}
     if 'None' in feature_comb:
