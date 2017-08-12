@@ -31,7 +31,6 @@ Other important code to look at
 1. [Main matrix factorisation CVXPY code](https://github.com/nipunbatra/mf-energybreakdown/blob/master/code/matrix_factorisation.py)
 2. [KNN baseline](https://github.com/nipunbatra/mf-energybreakdown/blob/master/code/knn_subset.py)
 3. [Code to run MF on HPC Slurm cluster](https://github.com/nipunbatra/mf-energybreakdown/blob/master/code/harness_cluster.py)
-4. 
 
 
 
