@@ -5,12 +5,14 @@ This repository contains the code for our [AAAI 2017 paper](https://nipunbatra.g
 
 Please use the following bib for citing our work
 
->@inproceedings{batra2017matrix,
+```
+@inproceedings{batra2017matrix,
   title={Matrix Factorisation for Scalable Energy Breakdown},
   author={Batra, Nipun and Wang, Hongning and Singh, Amarjeet and Whitehouse, Kamin},
   booktitle={AAAI 2017},
   year={2017}
 }
+```
 
 
 
