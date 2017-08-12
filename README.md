@@ -23,9 +23,15 @@ Notebooks used to generate the plots/tables in the paper
 1. [Figure 1](https://github.com/nipunbatra/mf-energybreakdown/blob/master/notebooks/dataset-plots.ipynb)
 2. [Table 2](https://github.com/nipunbatra/mf-energybreakdown/blob/master/notebooks/all_feature_homes-fraction.ipynb)
 3. [Table 3](https://github.com/nipunbatra/mf-energybreakdown/blob/master/notebooks/final-all-homes.ipynb)
+4. [Figure 2, Figure 3](https://github.com/nipunbatra/mf-energybreakdown/blob/master/notebooks/all_feature_homes-fraction-big-matrix.ipynb)
 
 Other important code to look at
 -------------------------
+
+1. [Main matrix factorisation CVXPY code](https://github.com/nipunbatra/mf-energybreakdown/blob/master/code/matrix_factorisation.py)
+2. [KNN baseline](https://github.com/nipunbatra/mf-energybreakdown/blob/master/code/knn_subset.py)
+3. [Code to run MF on HPC Slurm cluster](https://github.com/nipunbatra/mf-energybreakdown/blob/master/code/harness_cluster.py)
+4. 
 
 
 
